@@ -25,7 +25,10 @@ Edit config.py. You can setup the following:
 | GEMBLOG_OUTRO         | Outro or footer of your gemBlog. This will be visible at the bottom of the page, formatted as regular text. |
 | GEMBLOG_POSTS         | Label.                                                                                                      |
 | GEMBLOG_RECENT        | Label.                                                                                                      |
-| GEMBLOG_BACK          | Label.                                                                                                      |
+| GEMBLOG_INDEX         | Label.                                                                                                      |
+| GEMBLOG_ICON_YEAR     | Icon (or anything) that appears before every year link.                                                     |
+| GEMBLOG_ICON_MONTH    | Icon (or anything) that appears before every month link.                                                    |
+| GEMBLOG_ICON_ENTRY    | Icon (or anything) that appears before every entry.                                                         |
 | GEMBLOG_ENABLE_RECENT | If True, "Recent posts" block will be visible on the index page.                                            |
 | GEMBLOG_RECENT_COUNT  | Number of posts to show in "Recent posts" block.                                                            |
 
