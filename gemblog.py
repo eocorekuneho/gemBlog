@@ -12,7 +12,7 @@ cwd = os.getenv('SCRIPT_NAME', "")
 gemfiles = os.listdir(config.GEMBLOG_ROOT)
 
 def ok():
-	print("20 text/gemini;utf-8;hu-HU")
+	print("20 text/gemini;utf-8;"+config.GEMBLOG_LANGUAGE)
 	print("# " + config.GEMBLOG_HEADER)
 	print("## " + config.GEMBLOG_HEADER2)
 
@@ -112,7 +112,7 @@ def index():
 	list_years()
 	if config.GEMBLOG_ENABLE_RECENT:
 		print("")
-		list_recent(5)
+		list_recent(config.GEMBLOG_RECENT_COUNT)
 
 if not path or path == "/":
 	ok()
